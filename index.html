@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    hi
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Calculator -->
+
+    <div class="container">
+      <div class="calculator-container">
+        <div class="calc-heading">
+          <h2>Calculator</h2>
+        </div>
+        <div class="calc-screen">
+          <p class="calc-data" id="screen">0</p>
+        </div>
+        <div class="table-container">
+            <table class="function-table">
+                <tr class="table-row">
+                    
+                    <td class="table-data bg-color-white" id="clear">AC </td>
+                    <td class="table-data bg-color-white" id="sign">+/-</td>
+                    <td class="table-data bg-color-white" id="modulo">%</td>
+                    <td class="table-data bg-color-orange" id="divide">/</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="table-data bg-color-white" id="seven">7</td>
+                    <td class="table-data bg-color-white" id="eight">8</td>
+                    <td class="table-data bg-color-white" id="nine">9</td>
+                    <td class="table-data bg-color-orange" id="multiply">*</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="table-data bg-color-white" id="four">4</td>
+                    <td class="table-data bg-color-white" id="five">5</td>
+                    <td class="table-data bg-color-white" id="six">6</td>
+                    <td class="table-data bg-color-orange" id="minus">-</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="table-data bg-color-white" id="one">1</td>
+                    <td class="table-data bg-color-white" id="two">2</td>
+                    <td class="table-data bg-color-white" id="three">3</td>
+                    <td class="table-data bg-color-orange" id="plus">+</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="table-data bg-color-white" colspan="2" id="zero">0</td>
+                    <td class="table-data bg-color-white" id="decimal">.</td>
+                    <td class="table-data bg-color-orange" id="equal">=</td>
+                </tr>
+                
+            </table>
+        </div>
+      </div>
+    </div>
     <script src="js/app.js"></script>
-</body>
+  </body>
 </html>
